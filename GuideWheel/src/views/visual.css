@@ -1,0 +1,31 @@
+$WHITE: #ffffff
+$NAVY-15: #313f44
+
+.m-formInput:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.m-formInput:last-child {
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+
+.m-formInput {
+  background-color: #ffffff;
+  border: solid 1px #313f44;
+  border-radius: 4px;
+  padding: 0 9px;
+  width: 50%;
+  height: 50px;
+  font-size: 1.4rem;
+  line-height: 24 / 14;
+  box-shadow: none;
+  appearance: none;
+}
+
+.m-formInput:valid {
+  background-color: #cfc;
+}
+.m-formInput:invalid {
+  background-color: #fcc;
+}
